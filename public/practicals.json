@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 1,
+    "practicalName": "Study of MATLAB image processing toolkit and various commands on MATLAB.",
+    "actualFileName": "practical_1.pdf",
+    "isAvailable": true
+  },
+  {
+    "id": 2,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 2,
+    "practicalName": "Point processing in spatial domain",
+    "actualFileName": "practical_2.pdf",
+    "isAvailable": true
+  },
+  {
+    "id": 3,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 3,
+    "practicalName": "Program for histogram equalization.",
+    "actualFileName": "practical_3.pdf",
+    "isAvailable": true
+  },
+  {
+    "id": 4,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 4,
+    "practicalName": "Program to apply various filtering techniques in MATLAB",
+    "actualFileName": "practical_4.pdf",
+    "isAvailable": true
+  },
+  {
+    "id": 5,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 5,
+    "practicalName": "Program for image segmentation",
+    "actualFileName": "practical_5.pdf",
+    "isAvailable": false
+  },
+  {
+    "id": 6,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 6,
+    "practicalName": "Program for color image processing",
+    "actualFileName": "practical_6.pdf",
+    "isAvailable": false
+  },
+  {
+    "id": 7,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 7,
+    "practicalName": "Program for Image restoration",
+    "actualFileName": "practical_7.pdf",
+    "isAvailable": false
+  },
+  {
+    "id": 8,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 8,
+    "practicalName": "Program for edge detection",
+    "actualFileName": "practical_8.pdf",
+    "isAvailable": false
+  },
+  {
+    "id": 9,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 9,
+    "practicalName": "Program for smoothening and sharpening for 8-bit color image",
+    "actualFileName": "practical_9.pdf",
+    "isAvailable": false
+  },
+  {
+    "id": 10,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 10,
+    "practicalName": "Program to implement morphological operations",
+    "actualFileName": "practical_10.pdf",
+    "isAvailable": false
+  }
+]
