@@ -1,0 +1,106 @@
+{
+  "01a10504_1": {
+    "customPrompt": "Act as a Computer Science student. Write Practical 1 for Digital Image Processing. Return ONLY a pure JSON object containing a 'blueprint' array. Provide 2 blocks: 1. { \"type\": \"codeBlock\", \"text\": \"[MATLAB Code]\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"IMG_OUTPUT_1\" }",
+    "imageSlots": [
+      { "placeholder": "IMG_OUTPUT_1", "label": "Upload MATLAB Console/Output Screenshot" }
+    ]
+  },
+  "01a10506_1": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 1 (Bubble, Selection, Insertion, Quick, Merge Sort). Return ONLY a pure JSON object containing a 'blueprint' array. For EACH of the 5 algorithms, provide exactly these 5 blocks in order:\n1. { \"type\": \"heading\", \"text\": \"[Algorithm Name]\" }\n2. { \"type\": \"imageSlot\", \"placeholder\": \"[ALG]_ALGO\" }\n3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" }\n4. { \"type\": \"output\", \"text\": \"[Sample Console Output]\" }\n5. { \"type\": \"imageSlot\", \"placeholder\": \"[ALG]_TC\" }\nEnsure all inner quotes are escaped as \\\" and the JSON is perfectly valid.",
+    "imageSlots": [
+      { "placeholder": "BUBBLE_ALGO", "label": "Upload Bubble Sort Algorithm" },
+      { "placeholder": "BUBBLE_TC", "label": "Upload Bubble Sort Time Complexity" },
+      { "placeholder": "SELECTION_ALGO", "label": "Upload Selection Sort Algorithm" },
+      { "placeholder": "SELECTION_TC", "label": "Upload Selection Sort Time Complexity" },
+      { "placeholder": "INSERTION_ALGO", "label": "Upload Insertion Sort Algorithm" },
+      { "placeholder": "INSERTION_TC", "label": "Upload Insertion Sort Time Complexity" },
+      { "placeholder": "QUICK_ALGO", "label": "Upload Quick Sort Algorithm" },
+      { "placeholder": "QUICK_TC", "label": "Upload Quick Sort Time Complexity" },
+      { "placeholder": "MERGE_ALGO", "label": "Upload Merge Sort Algorithm" },
+      { "placeholder": "MERGE_TC", "label": "Upload Merge Sort Time Complexity" }
+    ]
+  },
+  "01a10506_2": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 2 (Linear and Binary Search). Return ONLY a pure JSON object containing a 'blueprint' array. For each search method provide exactly these 5 blocks in order: 1. { \"type\": \"heading\", \"text\": \"[Search Name]\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"[SEARCH]_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"[SEARCH]_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "LINEAR_ALGO", "label": "Upload Linear Search Algorithm" },
+      { "placeholder": "LINEAR_TC", "label": "Upload Linear Search Time Complexity" },
+      { "placeholder": "BINARY_ALGO", "label": "Upload Binary Search Algorithm" },
+      { "placeholder": "BINARY_TC", "label": "Upload Binary Search Time Complexity" }
+    ]
+  },
+  "01a10506_3": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 3 (Implementation of max-heap sort algorithm). Return ONLY a pure JSON object containing a 'blueprint' array. Provide these 5 blocks in order: 1. { \"type\": \"heading\", \"text\": \"Max-Heap Sort\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"HEAP_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"HEAP_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "HEAP_ALGO", "label": "Upload Max-Heap Sort Algorithm" },
+      { "placeholder": "HEAP_TC", "label": "Upload Max-Heap Sort Time Complexity" }
+    ]
+  },
+  "01a10506_4": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 4 (Implementation and Time analysis of factorial program using iterative and recursive method). Return ONLY a pure JSON object containing a 'blueprint' array. For both Iterative and Recursive methods, provide: 1. { \"type\": \"heading\", \"text\": \"[Method Name] Factorial\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"[METHOD]_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"[METHOD]_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "ITERATIVE_ALGO", "label": "Upload Iterative Factorial Algorithm" },
+      { "placeholder": "ITERATIVE_TC", "label": "Upload Iterative Factorial Time Complexity" },
+      { "placeholder": "RECURSIVE_ALGO", "label": "Upload Recursive Factorial Algorithm" },
+      { "placeholder": "RECURSIVE_TC", "label": "Upload Recursive Factorial Time Complexity" }
+    ]
+  },
+  "01a10506_5": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 5 (Implementation of a knapsack problem using dynamic programming). Return ONLY a pure JSON object containing a 'blueprint' array. Provide: 1. { \"type\": \"heading\", \"text\": \"0/1 Knapsack (DP)\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"KNAPSACK_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"KNAPSACK_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "KNAPSACK_ALGO", "label": "Upload Knapsack (DP) Algorithm" },
+      { "placeholder": "KNAPSACK_TC", "label": "Upload Knapsack (DP) Time Complexity" }
+    ]
+  },
+  "01a10506_6": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 6 (Implementation of chain matrix multiplication using dynamic programming). Return ONLY a pure JSON object containing a 'blueprint' array. Provide: 1. { \"type\": \"heading\", \"text\": \"Chain Matrix Multiplication (DP)\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"CMM_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"CMM_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "CMM_ALGO", "label": "Upload Chain Matrix Multiplication Algorithm" },
+      { "placeholder": "CMM_TC", "label": "Upload Chain Matrix Multiplication Time Complexity" }
+    ]
+  },
+  "01a10506_7": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 7 (Implementation of making a change problem using dynamic programming). Return ONLY a pure JSON object containing a 'blueprint' array. Provide: 1. { \"type\": \"heading\", \"text\": \"Coin Change Problem (DP)\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"CHANGE_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"CHANGE_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "CHANGE_ALGO", "label": "Upload Coin Change Algorithm" },
+      { "placeholder": "CHANGE_TC", "label": "Upload Coin Change Time Complexity" }
+    ]
+  },
+  "01a10506_8": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 8 (Implementation of Graph and Searching: DFS and BFS). Return ONLY a pure JSON object containing a 'blueprint' array. For both DFS and BFS, provide: 1. { \"type\": \"heading\", \"text\": \"[Search Name]\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"[SEARCH]_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"[SEARCH]_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "DFS_ALGO", "label": "Upload DFS Algorithm" },
+      { "placeholder": "DFS_TC", "label": "Upload DFS Time Complexity" },
+      { "placeholder": "BFS_ALGO", "label": "Upload BFS Algorithm" },
+      { "placeholder": "BFS_TC", "label": "Upload BFS Time Complexity" }
+    ]
+  },
+  "01a10506_9": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 9 (Implement Prim's algorithm). Return ONLY a pure JSON object containing a 'blueprint' array. Provide: 1. { \"type\": \"heading\", \"text\": \"Prim's Algorithm\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"PRIMS_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"PRIMS_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "PRIMS_ALGO", "label": "Upload Prim's Algorithm" },
+      { "placeholder": "PRIMS_TC", "label": "Upload Prim's Time Complexity" }
+    ]
+  },
+  "01a10506_10": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 10 (Implement Kruskal's algorithm). Return ONLY a pure JSON object containing a 'blueprint' array. Provide: 1. { \"type\": \"heading\", \"text\": \"Kruskal's Algorithm\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"KRUSKAL_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"KRUSKAL_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "KRUSKAL_ALGO", "label": "Upload Kruskal's Algorithm" },
+      { "placeholder": "KRUSKAL_TC", "label": "Upload Kruskal's Time Complexity" }
+    ]
+  },
+  "01a10506_11": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 11 (Write a program for Floyd-Warshall algorithm). Return ONLY a pure JSON object containing a 'blueprint' array. Provide: 1. { \"type\": \"heading\", \"text\": \"Floyd-Warshall Algorithm\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"FLOYD_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"FLOYD_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "FLOYD_ALGO", "label": "Upload Floyd-Warshall Algorithm" },
+      { "placeholder": "FLOYD_TC", "label": "Upload Floyd-Warshall Time Complexity" }
+    ]
+  },
+  "01a10506_12": {
+    "customPrompt": "Act as a Computer Science student. Write DAA Practical 12 (Write a program for travelling salesman problem). Return ONLY a pure JSON object containing a 'blueprint' array. Provide: 1. { \"type\": \"heading\", \"text\": \"Travelling Salesman Problem\" } 2. { \"type\": \"imageSlot\", \"placeholder\": \"TSP_ALGO\" } 3. { \"type\": \"codeBlock\", \"text\": \"[Code]\" } 4. { \"type\": \"output\", \"text\": \"[Output]\" } 5. { \"type\": \"imageSlot\", \"placeholder\": \"TSP_TC\" }. Ensure all inner quotes are escaped.",
+    "imageSlots": [
+      { "placeholder": "TSP_ALGO", "label": "Upload TSP Algorithm" },
+      { "placeholder": "TSP_TC", "label": "Upload TSP Time Complexity" }
+    ]
+  }
+}

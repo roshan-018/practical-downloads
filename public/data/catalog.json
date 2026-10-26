@@ -1,0 +1,96 @@
+{
+  "departments": [
+    {
+      "deptId": "CSE_AIML",
+      "deptName": "CSE AI & ML",
+      "subjects": [
+        {
+          "subjectCode": "01A10504",
+          "subjectName": "Digital Image Processing",
+          "sem": "5",
+          "practicals": [
+            { 
+              "id": "dip_1", "practicalNo": 1, "name": "Study of MATLAB image processing toolkit", "fileName": "practical_1.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 40, "y": 25, "width": 250, "height": 30 }, "text": { "x": 45, "y": 35, "size": 12 } }
+            },
+            { 
+              "id": "dip_2", "practicalNo": 2, "name": "Point processing in spatial domain", "fileName": "practical_2.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 40, "y": 25, "width": 250, "height": 30 }, "text": { "x": 45, "y": 35, "size": 12 } }
+            }
+          ]
+        },
+        {
+          "subjectCode": "01A10506",
+          "subjectName": "Design and Analysis of Algorithm",
+          "sem": "5",
+          "practicals": [
+            { 
+              "id": "daa_1", "practicalNo": 1, "name": "Implementation and Time analysis of sorting algorithms", "fileName": "daa_practical_1.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 45, "y": 46, "width": 300, "height": 14 }, "text": { "x": 50, "y": 50, "size": 12 } }
+            },
+            { 
+              "id": "daa_2", "practicalNo": 2, "name": "Linear and binary search algorithm", "fileName": "daa_practical_2.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 45, "y": 46, "width": 300, "height": 14 }, "text": { "x": 50, "y": 50, "size": 12 } }
+            },
+            { 
+              "id": "daa_3", "practicalNo": 3, "name": "Implementation of max-heap sort algorithm", "fileName": "daa_practical_3.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 38, "y": 31, "width": 210, "height": 22 }, "text": { "x": 39, "y": 40, "size": 12 } }
+            },
+            { 
+              "id": "daa_4", "practicalNo": 4, "name": "Factorial program using iterative and recursive method", "fileName": "daa_practical_4.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 38, "y": 31, "width": 210, "height": 22 }, "text": { "x": 39, "y": 40, "size": 12 } }
+            }
+          ]
+        },
+        {
+          "subjectCode": "01A10505",
+          "subjectName": "Software Engineering",
+          "sem": "5",
+          "practicals": [
+            { 
+              "id": "se_1", "practicalNo": 1, "name": "software engineering lab", "fileName": "se_lab.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 40, "y": 25, "width": 250, "height": 30 }, "text": { "x": 45, "y": 35, "size": 12 } }
+            }
+          ]
+
+        },
+        {
+          "subjectCode": "01A10507",
+          "subjectName": "Cloud Computing",
+          "sem": "5",
+          "practicals": [
+            { 
+              "id": "ccs_1", "practicalNo": 1, "name": "software engineering lab", "fileName": "8476_RISHAV_CCS_practical 1.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 34, "y": 28, "width": 252, "height": 31 }, "text": { "x": 45, "y": 35, "size": 12 } }
+            },
+            { 
+              "id": "ccs_2", "practicalNo": 2, "name": "software engineering lab", "fileName": "Practical_2_RISHAV.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 64, "y": 30, "width": 191, "height": 22 }, "text": { "x": 45, "y": 35, "size": 12 } }
+            },
+            { 
+              "id": "ccs_3", "practicalNo": 3, "name": "software engineering lab", "fileName": "Practical_3_RISHAV.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 62, "y": 36, "width": 344, "height": 29 }, "text": { "x": 45, "y": 35, "size": 12 } }
+            },
+            { 
+              "id": "ccs_4", "practicalNo": 4, "name": "software engineering lab", "fileName": "Practical_4_RISHAV.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 65, "y": 40, "width": 350, "height": 22 }, "text": { "x": 45, "y": 35, "size": 12 } }
+            },
+            { 
+              "id": "ccs_5", "practicalNo": 5, "name": "software engineering lab", "fileName": "Practical_5_RISHAV.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 59, "y": 40, "width": 200, "height": 22 }, "text": { "x": 45, "y": 35, "size": 12 } }
+            },
+            { 
+              "id": "ccs_6", "practicalNo": 6, "name": "software engineering lab", "fileName": "Practical_6_RISHAV.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 62, "y": 44, "width": 162, "height": 20 }, "text": { "x": 45, "y": 35, "size": 12 } }
+            },
+            { 
+              "id": "ccs_7", "practicalNo": 7, "name": "software engineering lab", "fileName": "Practical_7_RISHAV.pdf", "isAvailable": true,
+              "template": { "patch": { "x": 62, "y": 40, "width": 172, "height": 22 }, "text": { "x": 45, "y": 35, "size": 12 } }
+            }
+          ]
+
+        }
+      ]
+    }
+  ]
+}

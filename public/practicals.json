@@ -108,5 +108,34 @@
     "practicalName": "Program to implement morphological operations",
     "actualFileName": "practical_10.pdf",
     "isAvailable": false
+  },
+  
+  {
+    "id": 1,
+    "sem": "5",
+    "dept": "CSE AI & ML",
+    "subjectName": "DIGITAL IMAGE PROCESSING",
+    "subjectCode": "01A10504",
+    "practicalNo": 1,
+    "practicalName": "Study of MATLAB image processing toolkit",
+    "imageSlots": [
+      { "placeholder": "{{IMAGE_UPLOAD_1}}", "label": "Upload Output Screenshot" }
+    ],
+    "customPrompt": "Act as a Computer Science student. Write Practical 1 for Digital Image Processing. Return ONLY valid HTML code. Use <h3> for headings and <pre><code> for code blocks. Do not include HTML <body> or <head> tags. Where the visual output should appear, insert this exact text placeholder: {{IMAGE_UPLOAD_1}}"
+  },
+  {
+    "id": 11,
+    "sem": "5",
+    "dept": "Computer Engineering",
+    "subjectName": "Design and Analysis of Algorithm",
+    "subjectCode": "01A10506",
+    "practicalNo": 1,
+    "practicalName": "Sorting Algorithms",
+    "imageSlots": [
+      { "placeholder": "{{IMG_ALGO_BUBBLE}}", "label": "Bubble Sort Algorithm" },
+      { "placeholder": "{{IMG_TC_BUBBLE}}", "label": "Bubble Sort Time Complexity" }
+    ],
+    "customPrompt": "Act as a student. Write Practical 1 for DAA. The code MUST be written in {{LANGUAGE}}. Return ONLY valid HTML. Use <h3> for headings and <pre><code> for code blocks. For Bubble Sort, leave space for handwritten notes by inserting these placeholders: {{IMG_ALGO_BUBBLE}} for the algorithm, and {{IMG_TC_BUBBLE}} for time complexity."
   }
+
 ]
